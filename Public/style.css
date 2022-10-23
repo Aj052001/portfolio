@@ -196,7 +196,7 @@ section .title::after{
    height: 35px;
    width: 35px;
    color: white;
-   margin: 10px;
+
 }
 
 .home .social ul li a{
@@ -464,94 +464,9 @@ background-color: #111319;
 }
 
 
-/* experience section styling */
-
-.experience{
-    background-color: #111319;
-    color: white;
-}
-.experience .title::after{
-    content: "what i serve";
-}
-.experience .experience-content .column{
-    /* border: 2px solid red; */
-    background-color: #191c26;
-    width: 102%;
-    display: flex;
-    height: 250px;
-    border-radius: 8px;
-}
-.experience .experience-content .column .right{
-    position: relative;
-    width: 30%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-top: 30px;
-}
-.experience .experience-content .column .right h5{
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.experience .experience-content .column .right h6{
-    display: block;
-    font-size: 22px;
-    font-weight: 400;
-    font-style: italic;
-    margin-top: 7px;
-}
-.experience .experience-content .column .right p{
-    margin: 10px 0 0;
-    font-size: 20px;
-}
-.experience .experience-content .column .right h4{
-    margin-top: 18px;
-    margin-bottom: 18px;
-    border: 2px solid white;
-    width: 56%;
-    border-radius: 6px;
-    padding: 4px;
-    color: white;
-    cursor: pointer;
-}
-.experience .experience-content .column .right h4:hover{
-    border: 2px solid crimson;
-    color: crimson;
-}
-.experience .experience-content .column .left{
-    position: relative;
-    width: 66%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-top: 30px;
-}
-.experience .experience-content .column .left p{
-    background: transparent;
-    border: 0;
-    margin: 10px 0px;
-    padding: 0;
-    vertical-align: initial;
-    outline: none;
-}
-
-.experience .experience-content .column .left h4{
-    margin-top: 18px;
-    margin-bottom: 18px;
-    width: 33%;
-    border-radius: 6px;
-    padding: 4px;
-    color: white;
-    cursor: pointer;
-}
-.experience .experience-content .column .left h4:hover{
-    color: crimson;
-}
-
-
-
 /* contact section styling */
 .contact{
-    background-color: #191c26;
+    background-color: #111319;
     color: white;
 }
 .contact .title::after{
@@ -656,7 +571,7 @@ background-color: #111319;
 }
 /* footer section styling */
 footer{
-    background: #111319;
+    background: #191c26;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
